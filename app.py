@@ -181,7 +181,6 @@ if st.button("추천받기"):
     if recommended:
         for food in recommended:
             st.subheader(food["name"])
-            st.image(food["image"], width=300)
             st.write(f"**종류:** {food['category']}")
             st.markdown("---")
     else:
