@@ -3,6 +3,13 @@ import streamlit as st
 # 음식 데이터
 foods = [
     {
+        "name": "국수",
+        "category": "한식",
+        "ingredients": ["육수", "면", "야채"],
+        "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
+        "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
+    },
+    {
         "name": "돈까스",
         "category": "일식",
         "ingredients": ["돼지고기", "튀김", "고기"],
