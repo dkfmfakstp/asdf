@@ -5,7 +5,7 @@ foods = [
     {
         "name": "돈까스",
         "category": "일식",
-        "ingredients": ["돼지고기", "튀김"],
+        "ingredients": ["돼지고기", "튀김", "고기"],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
@@ -19,21 +19,21 @@ foods = [
     {
         "name": "갈비",
         "category": "한식",
-        "ingredients": ["고기", "간장", "고춧가루", "고추장"],
+        "ingredients": ["고기", "간장", "소고기", "돼지고기" ],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
     {
         "name": "까르보나라 스파게티",
         "category": "양식",
-        "ingredients": ["해물", "면", "크림소스"],
+        "ingredients": ["해물", "면", "크림소스", "베이컨", "고기"],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
     {
         "name": "라멘",
         "category": "일식",
-        "ingredients": ["돼지고기", "면", "채소"],
+        "ingredients": ["돼지고기", "면", "채소", "고기"],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
@@ -47,7 +47,7 @@ foods = [
     {
         "name": "탕수육",
         "category": "중식",
-        "ingredients": ["돼지고기", "튀김", "설탕"],
+        "ingredients": ["돼지고기", "튀김", "설탕", "고기"],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
@@ -61,7 +61,7 @@ foods = [
     {
         "name": "한식",
         "category": "족발",
-        "ingredients": ["고기"],
+        "ingredients": ["고기", "돼지고기"],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
@@ -75,7 +75,7 @@ foods = [
     {
         "name": "치킨",
         "category": "한식",
-        "ingredients": ["닭고기", "튀김"],
+        "ingredients": ["닭고기", "튀김", "고기"],
         "description": "설명.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
@@ -103,14 +103,14 @@ foods = [
     {
         "name": "제육볶음",
         "category": "한식",
-        "ingredients": ["볶음", "돼지고기", "고추장"],
+        "ingredients": ["볶음", "돼지고기", "고추장", "고기"],
         "description": "돼지고기를 매콤하게 볶아만든 한국 고기 요리입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
     {
         "name": "김치찌개",
         "category": "한식",
-        "ingredients": ["김치", "돼지고기", "두부"],
+        "ingredients": ["김치", "돼지고기", "두부", "고기"],
         "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
         "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
     },
