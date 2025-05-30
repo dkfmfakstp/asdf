@@ -3,6 +3,34 @@ import streamlit as st
 # 음식 데이터
 foods = [
     {
+        "name": "짬뽕",
+        "category": "중식",
+        "ingredients": ["해물", "면", "고춧가루"],
+        "description": "매콤하고 깊은 맛의 한국 전통 찌개입니다.",
+        "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
+    },
+    {
+        "name": "초밥",
+        "category": "일식",
+        "ingredients": ["생선", "밥", "와사비"],
+        "description": "설명.",
+        "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
+    },
+    {
+        "name": "햄버거",
+        "category": "양식",
+        "ingredients": ["고기", "야채", "빵",'치즈'],
+        "description": "설명.",
+        "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
+    },
+    {
+        "name": "제육볶음",
+        "category": "한식",
+        "ingredients": ["볶음", "돼지고기", "고추장"],
+        "description": "돼지고기를 매콤하게 볶아만든 한국 고기 요리입니다.",
+        "image": "https://cdn.pixabay.com/photo/2017/06/22/18/38/korean-food-2432252_1280.jpg"
+    },
+    {
         "name": "김치찌개",
         "category": "한식",
         "ingredients": ["김치", "돼지고기", "두부"],
@@ -28,7 +56,7 @@ foods = [
 st.title("음식 추천 웹앱")
 
 # 음식 종류 선택
-category = st.selectbox("음식 종류를 선택하세요", options=["전체", "한식", "양식", "중식"])
+category = st.selectbox("음식 종류를 선택하세요", options=["전체", "한식", "양식", "중식","일식"])
 
 # 재료 입력
 ingredient = st.text_input("재료를 입력하세요 (선택)", "")
