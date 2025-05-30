@@ -139,7 +139,6 @@ if st.button("추천받기"):
             st.subheader(food["name"])
             st.image(food["image"], width=300)
             st.write(f"**종류:** {food['category']}")
-            st.write(food["description"])
             st.markdown("---")
     else:
         st.write("조건에 맞는 음식이 없습니다. 다른 조건으로 시도해보세요!")
