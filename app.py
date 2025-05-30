@@ -107,7 +107,7 @@ foods = [
     {
         "name": "토마토 스파게티",
         "category": "양식",
-        "ingredients": ["파스타", "고기", "토마토"],
+        "ingredients": ["파스타", "고기", "토마토", "면"],
         "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/spaghetti-3007395_1280.jpg"
     },
     {
