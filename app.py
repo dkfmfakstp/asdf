@@ -10,7 +10,6 @@ foods = [
     {"name": "떡볶이", "category": "한식", "ingredients": ["떡", "고추장", "어묵", "설탕", "물엿", "양파", "대파"]},
     {"name": "순두부찌개", "category": "한식", "ingredients": ["순두부", "조개류", "고추가루", "마늘", "계란", "대파", "간장"]},
     {"name": "삼계탕", "category": "한식", "ingredients": ["닭", "인삼", "찹쌀", "대추", "마늘", "생강"]},
-    {"name": "김밥", "category": "한식", "ingredients": ["밥", "김", "단무지", "햄", "계란", "시금치", "당근"]},
     {"name": "갈비찜", "category": "한식", "ingredients": ["소갈비", "간장", "설탕", "마늘", "배", "대파", "당근", "밤"]},
 
     {"name": "짜장면", "category": "중식", "ingredients": ["중화면", "돼지고기", "춘장", "양파", "감자", "호박"]},
@@ -61,7 +60,7 @@ foods = [
     {
         "name": "김밥",
         "category": "한식",
-        "ingredients": ["밥", "고기", "채소"],
+        "ingredients": ["밥", "김", "단무지", "햄", "계란", "시금치", "당근"],
         "image": "data:image/webp;base64,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"
     },
     {
@@ -168,7 +167,7 @@ st.title("음식 추천 웹앱")
 category = st.selectbox("음식 종류를 선택하세요", options=["전체", "한식", "양식", "중식","일식"])
 
 # 재료 입력
-ingredient = st.text_input("정보를 입력하세요 (선택)", "")
+ingredient = st.text_input("오늘 끌리는 음식의 특징을 적어 주세요!(ex:밥,국물,고기,단것,짠것,차가운것,뜨거운것 등등)", "")
 
 # 추천 버튼
 if st.button("추천받기"):
@@ -182,6 +181,7 @@ if st.button("추천받기"):
         for food in recommended:
             st.subheader(food["name"])
             st.write(f"**종류:** {food['category']}")
+            st.image(food["image"], width=300)
             st.markdown("---")
     else:
         st.write("조건에 맞는 음식이 없습니다. 다른 조건으로 시도해보세요!")
