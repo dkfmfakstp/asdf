@@ -61,6 +61,11 @@ category = st.selectbox("음식 종류를 선택하세요", options=["전체", "
 # 재료 입력
 ingredient = st.text_input("오늘 끌리는 음식을 알기 위해 원하는 재료를 말해주세요!", "")
 
+taste = st.selectbox("원하는 맛을 선택하세요", options=["전체", "매운것", "짠것", "단것"])
+
+# 온도 선택
+temperature = st.selectbox("원하는 온도를 선택하세요", options=["전체", "뜨거운것", "차가운것"])
+
 # 추천 버튼
 if st.button("추천받기"):
     recommended = []
