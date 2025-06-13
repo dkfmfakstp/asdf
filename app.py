@@ -27,7 +27,7 @@ foods = [
     {"name": "양장피", "category": "중식", "ingredients": ["해파리", "오이", "피망", "돼지고기", "간장", "식초"], "taste": "단것", "temperature": "차가운것"},
     {"name": "고추잡채", "category": "중식", "ingredients": ["돼지고기", "피망", "양파", "목이버섯", "간장"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "군만두", "category": "중식", "ingredients": ["만두피", "돼지고기", "양배추", "부추", "마늘", "간장"], "taste": "짠것", "temperature": "뜨거운것"},
-    {"name": "계란볶음밥", "category": "중식", "ingredients": ["밥", "계란", "대파", "당근", "완두콩"], "taste": "짠것", "temperature": "뜨거운것"}
+    {"name": "계란볶음밥", "category": "중식", "ingredients": ["밥", "계란", "대파", "당근", "완두콩"], "taste": "짠것", "temperature": "뜨거운것"},
 
     {"name": "토마토 스파게티", "category": "양식", "ingredients": ["면", "소고기", "토마토 소스", "양파", "마늘", "올리브오일", "허브"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "피자", "category": "양식", "ingredients": ["피자 도우", "토마토", "치즈", "바질", "올리브오일"], "taste": "짠것", "temperature": "뜨거운것"},
