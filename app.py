@@ -2,7 +2,7 @@ import streamlit as st
 
 # 음식 데이터
 foods = [
-    {"name": "김치찌개", "category": "한식", "ingredients": ["김치", "돼지고기", "두부", "양파", "대파", "마늘"], "taste": "매운것", "temperature": "뜨거운것"},
+    {"name": "김치찌개", "category": "한식", "ingredients": ["김치", "돼지고기", "두부", "양파", "대파", "마늘"], "taste": "매운것", "temperature": "뜨거운것", "image": https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMjNfNzUg%2FMDAxNzQwMjg2NTQyNjIw.ZDiNEo3djcxdDjVMLZmUg3Bcj-6AXtvvRrpKY2P9gBog.ICrfpuAmf9d5wxtUv9icLzt21KyeinIjMwuihs5JRwsg.JPEG%2F20250217_144903.jpg&type=a340},
     {"name": "비빔밥", "category": "한식", "ingredients": ["밥", "나물", "계란", "참기름", "김"], "taste": "매운것", "temperature": "뜨거운것"},
     {"name": "불고기", "category": "한식", "ingredients": ["소고기", "간장", "마늘", "참기름", "후추", "양파"], "taste": "단것", "temperature": "뜨거운것"},
     {"name": "된장찌개", "category": "한식", "ingredients": ["된장", "두부", "애호박", "감자", "양파", "대파", "마늘", "고추"], "taste": "짠것", "temperature": "뜨거운것"},
@@ -77,6 +77,7 @@ if st.button("추천받기"):
     if recommended:
         for food in recommended:
             st.subheader(food["name"])
+            st.image(food["image"], use_column_width=True)
             st.write(f"**종류:** {food['category']}")
             st.write(f"**맛:** {food['taste']} / **온도:** {food['temperature']}")
             st.markdown("---")
