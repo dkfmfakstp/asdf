@@ -15,7 +15,7 @@ foods = [
     {"name": "김밥", "category": "한식", "ingredients": ["밥", "김", "단무지", "햄", "계란", "시금치", "당근"], "taste": "짠것", "temperature": "차가운것"},
     {"name": "갈비", "category": "한식", "ingredients": ["고기", "간장", "소고기", "돼지고기"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "국밥", "category": "한식", "ingredients": ["밥", "국물", "소고기", "마늘", "양파", "돼지고기", "대파"], "taste": "짠것", "temperature": "뜨거운것"},
-    {"name": "족발", "category": "한식", "ingredients": ["간장", "돼지고기", "된장", "], "taste": "짠것", "temperature": "차가운것"},
+    {"name": "족발", "category": "한식", "ingredients": ["간장", "돼지고기", "된장"], "taste": "짠것", "temperature": "차가운것"},
     {"name": "치킨", "category": "한식", "ingredients": ["닭고기", "계란", "밀가루"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "제육볶음", "category": "한식", "ingredients": ["간장", "돼지고기", "대파", "양파"], "taste": "매운것", "temperature": "뜨거운것"}
 
