@@ -66,7 +66,7 @@ if st.button("추천받기"):
     recommended = []
     for food in foods:
         if (category == "전체" or food["category"] == category) and \
-           (ingredient == "" or ingredient in food["ingredients"]):
+           (ingredient == "" or any(ingredient in ing for ing in food["ingredients"])):
             recommended.append(food)
 
     if recommended:
@@ -75,9 +75,6 @@ if st.button("추천받기"):
             st.write(f"**종류:** {food['category']}")
             st.write(f"**맛:** {food['taste']} / **온도:** {food['temperature']}")
             st.markdown("---")
-            
     else:
         st.write("조건에 맞는 음식이 없습니다. 다른 조건으로 시도해보세요!")
-
-
 
