@@ -17,7 +17,7 @@ foods = [
     {"name": "국밥", "category": "한식", "ingredients": ["밥", "국물", "소고기", "마늘", "양파", "돼지고기", "대파"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "족발", "category": "한식", "ingredients": ["간장", "돼지고기", "된장"], "taste": "짠것", "temperature": "차가운것"},
     {"name": "치킨", "category": "한식", "ingredients": ["닭고기", "계란", "밀가루"], "taste": "짠것", "temperature": "뜨거운것"},
-    {"name": "제육볶음", "category": "한식", "ingredients": ["간장", "돼지고기", "대파", "양파"], "taste": "매운것", "temperature": "뜨거운것"}
+    {"name": "제육볶음", "category": "한식", "ingredients": ["간장", "돼지고기", "대파", "양파"], "taste": "매운것", "temperature": "뜨거운것"},
 
     {"name": "짜장면", "category": "중식", "ingredients": ["면", "돼지고기", "춘장", "양파", "감자", "호박"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "짬뽕", "category": "중식", "ingredients": ["면", "오징어", "홍합", "배추", "양파", "마늘", "대파"], "taste": "매운것", "temperature": "뜨거운것"},
@@ -39,7 +39,7 @@ foods = [
     {"name": "시저 샐러드", "category": "양식", "ingredients": ["상추", "크루통", "치즈", "시저 드레싱"], "taste": "짠것", "temperature": "차가운것"},
     {"name": "프렌치 프라이", "category": "양식", "ingredients": ["감자", "식용유",], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "스테이크", "category": "양식", "ingredients": ["소고기", "후추", "버터", "마늘"], "taste": "짠것", "temperature": "뜨거운것"},
-    {"name": "까르보나라 스파게티", "category": "양식", "ingredients": ["해물", "면", "크림소스", "베이컨", "고기"], "taste": "짠것", "temperature": "뜨거운것"}
+    {"name": "까르보나라 스파게티", "category": "양식", "ingredients": ["해물", "면", "크림소스", "베이컨", "고기"], "taste": "짠것", "temperature": "뜨거운것"},
 
     {"name": "스시", "category": "일식", "ingredients": ["밥", "생선회", "김", "와사비", "간장"], "taste": "짠것", "temperature": "차가운것"},
     {"name": "라멘", "category": "일식", "ingredients": ["면", "돼지고기", "차슈", "계란", "대파", "김"], "taste": "짠것", "temperature": "뜨거운것"},
