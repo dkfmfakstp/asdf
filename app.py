@@ -3,8 +3,8 @@ import streamlit as st
 # 음식 데이터
 foods = [
     {"name": "김치찌개", "category": "한식", "ingredients": ["김치", "돼지고기", "두부", "양파", "대파", "마늘"], "taste": "매운것", "temperature": "뜨거운것", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMjNfNzUg%2FMDAxNzQwMjg2NTQyNjIw.ZDiNEo3djcxdDjVMLZmUg3Bcj-6AXtvvRrpKY2P9gBog.ICrfpuAmf9d5wxtUv9icLzt21KyeinIjMwuihs5JRwsg.JPEG%2F20250217_144903.jpg&type=a340"},
-    {"name": "비빔밥", "category": "한식", "ingredients": ["밥", "나물", "계란", "참기름", "김"], "taste": "매운것", "temperature": "뜨거운것", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshopping.phinf.naver.net%2Fmain_5296538%2F52965384718.20250214083643.jpg&type=a340"},
-    {"name": "불고기", "category": "한식", "ingredients": ["소고기", "간장", "마늘", "참기름", "후추", "양파"], "taste": "단것", "temperature": "뜨거운것"},
+    {"name": "비빔밥", "category": "한식", "ingredients": ["밥", "나물", "계란", "참기름", "김"], "taste": "매운것", "temperature": "뜨거운것", "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MDRfNzAg%2FMDAxNzQzNzcxODQ0NDA2.7D0etZgW6SPC3fO6RkTee2FaxdhhzroyggDoHEe-t2Ag.LzTxkK0ZkvfP5ouLTKkiks981o6uJEjThyefEcRn5iAg.JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5%25C6%25C4%25C0%25CF%25A3%25DF20250404%25A3%25DF220326.jpg&type=a340"},
+    {"name": "불고기", "category": "한식", "ingredients": ["소고기", "간장", "마늘", "참기름", "후추", "양파"], "taste": "단것", "temperature": "뜨거운것", 'image': "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MTJfMjE1%2FMDAxNzI2MTAxMjAzMjQz.TpJjMi6XN6mm4Yt0ebAEv7H3vqzbsdi2Txh5muav-Gog.uVu57Yavpdddv0otJ8JruxhO3fG3vxDV7AXNcHtewA8g.JPEG%2F1726101201948.jpg&type=a340"},
     {"name": "된장찌개", "category": "한식", "ingredients": ["된장", "두부", "애호박", "감자", "양파", "대파", "마늘", "고추"], "taste": "짠것", "temperature": "뜨거운것"},
     {"name": "잡채", "category": "한식", "ingredients": ["당면", "소고기", "시금치", "당근", "양파", "간장", "참기름", "깨"], "taste": "단것", "temperature": "뜨거운것"},
     {"name": "떡볶이", "category": "한식", "ingredients": ["떡", "어묵", "물엿", "양파", "대파"], "taste": "매운것", "temperature": "뜨거운것"},
