@@ -77,7 +77,7 @@ if st.button("추천받기"):
     if recommended:
         for food in recommended:
             st.subheader(food["name"])
-            st.image(food["image"], use_column_width=True)
+            st.image(food["image"], use_container_width=True)
             st.write(f"**종류:** {food['category']}")
             st.write(f"**맛:** {food['taste']} / **온도:** {food['temperature']}")
             st.markdown("---")
